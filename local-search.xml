@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>手动添加开机启动项</title>
+    <link href="/AddStartup-apps/"/>
+    <url>/AddStartup-apps/</url>
+    
+    <content type="html"><![CDATA[<p>当Windows资源管理器的启动项中没有我们所需要开机启动的软甲，这样添加</p><span id="more"></span><h3 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h3><p>Windows启动项大家都不陌生了</p><p><img src="/img%5Cposts%5CAdd-start-app%5Cimage_12.png" alt="image_12.png"></p><p>有的软件开机启动就如如鱼得水，而有的软件自动启动就是是依托答辩。</p><h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>但是随着软件不断增多，一些日常使用非常频繁的软件就急需添加到开机启动项。问题来了，像aria2这种可以后台运行、实时下载文件的软件，却又没有开机启动项可以设置。</p><p>所以最终就要请出手动添加的方法了：</p><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><ul><li><p><code>win+R</code> 启动运行窗口</p></li><li><p>输入 <code>shell:startup</code></p></li></ul><p><img src="/img%5Cposts%5CAdd-start-app%5Cimage_13.png" alt="image_13.png"></p><p>不出意外的话会进入到这个路径</p><p><img src="/img%5Cposts%5CAdd-start-app%5Cimage_14.png" alt="image_14.png"></p><p>这里便是用户自动开机启动项了，只需要把软件的快捷方式拖进来，然后你就能在任务管理器的启动界面看到对应的软件了</p><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><ol><li><p>这个指令打开的文件夹以及你手动添加的开机启动项都只限定你<strong>目前使用的帐户</strong>，如果你的电脑上有多个账户，那么这个设置对其他账户不起作用</p></li><li><p>如果回车打不开文件夹报错(这种情况真的很少，除非是作死删了什么东西)，就根据目录手动创建，有同样效果。</p></li><li><p>尽量在软件自带设置的开机启动因各种原因失效后使用这个方法，虽然没试过有没有冲突什么的，<del>但是别作死就是了</del>。</p></li></ol><h3 id="Then"><a href="#Then" class="headerlink" title="Then"></a>Then</h3><p>然后嘛，~~去体验香喷喷的自动开机吧~~~~</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Help</category>
+      
+      <category>System</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>System</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Steam 8.13.34.93版本主题皮肤失效</title>
+    <link href="/SteamUIProblem/"/>
+    <url>/SteamUIProblem/</url>
+    
+    <content type="html"><![CDATA[<p>关于STEAM 2023&#x2F;6&#x2F;16日UI界面更新，导致旧版的主题皮肤文件失效的解决办法</p><span id="more"></span><h3 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h3><p>2023年6月16日，steam进行了一波更新。G胖这次可算是对着UI进行了一波大改：</p><p><img src="https://s1.ax1x.com/2023/06/21/pCGz4iT.png" alt="main.png"></p><p>说实话改的确实不错，一些动画也进行了优化，总体来说非常不错。</p><p><img src="/img%5Cposts%5Cideas-for-theme-in-new-version%5Cimage_11.png" alt="image_11.png"></p><h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>但是，经过一番寻找然后就会发现：我skin呢？</p><p><del>steam skins可是客户端的一大精髓</del>，怎么能随随便便就没？</p><p>So，这个新界面我就委婉拒绝了<del>，还是我旧UI的老婆香</del></p><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><ul><li><p>打开你的Steam快捷方式</p></li><li><p>在“目标”里，最后加入后面一段代码：<code> -vgui</code></p></li></ul><p>效果如图所示</p><p><img src="https://s1.ax1x.com/2023/06/21/pCJpdC8.png"></p><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>“与- 间一定要有一个空格，否则无效</p><h3 id="Then"><a href="#Then" class="headerlink" title="Then"></a>Then</h3><p><img src="https://s1.ax1x.com/2023/06/22/pCJcjMj.png"></p><p>然后老婆就回来了~~~~</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Apps</category>
+      
+      <category>Steam</category>
+      
+      <category>Help</category>
+      
+      <category>Steam</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Steam</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+  
+  
+  <entry>
+    <title>about</title>
+    <link href="/"/>
+    <url>/</url>
+    
+    <content type="html"><![CDATA[<h3 id="你好"><a href="#你好" class="headerlink" title="你好"></a>你好</h3><p>我是中川千夏，你也可以叫我CHinaTsu，别问我为什么有大小写。<del>因为个性</del></p><p>……</p><p><del>在这种自我介绍中总是不知如何开口</del></p><h3 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h3><p>我仅是一名高中生，在几年前开始接触计算机，前年开始学习Python(<del>然而学了托答辩</del>)。日常喜欢打打代码搞搞3D(Maya，Blender，Pr，VS)。关于计算机的一切我都有涉及，于是才会有了这个Blog。在大部分领域中，我基本是靠自学，实践-失败-测试-成功，方才有了搭建博客等等这样的不值一提的能力。</p><h4 id="搭建Blog"><a href="#搭建Blog" class="headerlink" title="搭建Blog"></a>搭建Blog</h4><h5 id="初试"><a href="#初试" class="headerlink" title="初试"></a>初试</h5><p>在2022年夏天我在搜寻有关建设论坛的教程时偶然找到了Hexo，于是自此开始捣鼓。因为当初英文基础和代码基础不太好，再加上第一个主题使用的<a href="https://xaoxuu.com/wiki/stellar/">stellar</a>并不成熟，一些少见的、没有完美解决方案的bug让我一次次止步不前，到后来我换了butterfly，经过几个月建设后只是进行了美化，而并没有实际成果，于是这项工程被暂时(彻底)搁置。</p><h5 id="重返"><a href="#重返" class="headerlink" title="重返"></a>重返</h5><p>2023年6月，看到浏览器收藏夹中的Hexo后，下意识的点了进去，不知不觉跟着Docs做了起来。基于第一次尝试的经验，这次并没有什么坎坷，安装很顺利。而正是安装的过程我意识到，我是时候该做点什么了。</p><p>回顾了一下我从接触计算机以来，从作为一个领域萌新(包括但不限于编程、网络、游戏等各个方面)，逐渐成长为中阶选手，我很清楚作为一个萌新当遇到一个没有人可以解决的的难题却又不得不用这套方案时的无奈和无助，我很清楚在询问他人时因问题太罕见或代码基础不好而被冷漠或排挤的感受，所以我希望寻找一种方式将我踏过的路、走过的水指明给他人。</p><h5 id="理由"><a href="#理由" class="headerlink" title="理由"></a>理由</h5><p>这便是我创建这个Blog的理由：为了更好、更精准的帮助他人，给那些找不到解决方案、停滞不前的萌新们一丁点动力，而不至于因为一个bug放弃一项工程。</p><h5 id="尝试"><a href="#尝试" class="headerlink" title="尝试"></a>尝试</h5><p>首先我在B站发布了<a href="https://www.bilibili.com/video/BV1NN4y1g7s8/">关于CSP19号笔刷的问题</a>几千的播放看似颇有成果，却并不合意，因为——这种方式的工作量太大了。仅仅是1分钟的视频，封面、录制、配音、剪辑加起来就接近一个半点，虽说解决方法很明了、也很方便观看，但效率很慢，就导致制作动力很低很低(到现在为止都还是那一个视频)。而且一些比较小的问题也不值得去发一个视频，既没人看到还浪费时间，何必呢。于是，Blog成为了比较好的解决方法——编辑一篇文章的时间可以说很短了，除非像这样自我介绍的长篇大论，一般只需要5-10分钟即可搞定，再加上配图、图床，不到20分钟就能出稿一篇精美、详略得当、易懂、有效的文章。</p>]]></content>
+    
+  </entry>
+  
+  
+  
+</search>
